@@ -1,0 +1,32 @@
+.footer {
+    height: 50px;
+    margin: -8px;
+}
+
+.footer > .links-wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.footer > .links-wrapper > .nav-link {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(54, 56, 63);
+    border: 1px solid grey;
+    border-left: 0.5px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .links-wrapper > .nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer > .links-wrapper > .nav-link a span {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+}

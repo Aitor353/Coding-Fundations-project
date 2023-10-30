@@ -1,0 +1,76 @@
+/* Common nav styles*/
+.navigation-wrapper {
+    height: 70px;
+    margin: -8px;
+    background-color: black;
+    color: white;
+    border-bottom: 0.3px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column {
+    width: 600px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .left-column > .logo img {
+    width: 175px;
+}
+
+.navigation-wrapper > .left-column > .links-wrapper {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navigation-wrapper > .left-column > .links-wrapper > .links-header {
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 14px;
+}
+
+.navigation-wrapper > .left-column > .links-wrapper > .links {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.navigation-wrapper > .left-column > .links-wrapper > .links > .nav-link a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .left-column > .links-wrapper > .links > .dropdown-link a {
+    width: 80px;
+    color: grey;
+    text-decoration: none;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    width: 380px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.navigation-wrapper > .right-column > .buttons-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .buttons-wrapper > .search-icon {
+    font-size: 1.75em;
+    color: grey;
+}

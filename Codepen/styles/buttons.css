@@ -1,0 +1,57 @@
+/* Common button styles */
+.btn {
+    background-color: rgb(54, 56, 63);
+    color: white;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 14px 20px;
+    border: 1px solid rgb(54, 56, 63);
+    border-radius: 3px;
+    outline: none;
+    transition: 0.1s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color:grey;
+    border: 1px solid grey;
+}
+
+/* Dropdown button */
+.dropdown-btn-wrapper > .btn i {
+    color:rgb(78, 205, 119);
+    margin: -5px 0px -5px 10px;
+    font-size: 1.4em;
+}
+
+
+/* Homepage buttons */
+
+.homepage-content > .left-section > .homepage-buttons-wrapper > .green-btn-wrapper > .btn {
+    font-size: 29px;
+    color: black;
+    background-color: rgb(78, 205, 119);
+    border: 1px solid rgb(78, 205, 119);
+}
+
+.homepage-content > .left-section > .homepage-buttons-wrapper > .green-btn-wrapper > .btn:hover {
+    color: white;
+    background-color: rgb(42, 139, 73);
+    border: 1px solid rgb(42, 139, 73);
+}
+
+.homepage-content > .left-section > .homepage-buttons-wrapper > .black-btn-wrapper > .btn {
+    font-size: 27px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.homepage-content > .left-section > .homepage-buttons-wrapper > .black-btn-wrapper > .btn:hover {
+    background-color:grey;
+    border: 1px solid grey;
+}
